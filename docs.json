@@ -1,0 +1,210 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Royal RP",
+  "colors": {
+    "primary": "#D4AF37",
+    "light": "#F0D77B",
+    "dark": "#B8860B"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0A0A0A"
+    }
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo.png",
+    "dark": "/logo.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Discord",
+      "href": "https://discord.gg/your-invite"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/your-invite"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Головна",
+        "icon": "house",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Правила сервера",
+        "icon": "scroll",
+        "pages": [
+          "pravila-servera/royal-rp",
+          "pravila-servera/lider",
+          "pravila-servera/zeleni-zoni",
+          "pravila-servera/globalni-zahodi",
+          "pravila-servera/derzhavni-organizatsii",
+          "pravila-servera/znyattya-lideriv",
+          {
+            "group": "Допити",
+            "pages": [
+              "pravila-servera/dopyty",
+              "pravila-servera/dopyty/dopyty",
+              "pravila-servera/dopyty/prymus"
+            ]
+          },
+          {
+            "group": "Правила для кримінальних організацій",
+            "pages": [
+              "pravila-servera/boyovi",
+              "pravila-servera/boyovi/reydy",
+              "pravila-servera/boyovi/shturm-rayonu",
+              "pravila-servera/boyovi/bandi-zagalni",
+              "pravila-servera/boyovi/kapty",
+              "pravila-servera/boyovi/grafiti",
+              "pravila-servera/boyovi/fck",
+              "pravila-servera/boyovi/zahoplennya-struktur",
+              "pravila-servera/boyovi/pograbuvannya"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Законодавча база",
+        "icon": "scale-balanced",
+        "pages": [
+          {
+            "group": "Кодекси",
+            "pages": [
+              "zakonodavcha-baza/kodeksy",
+              "zakonodavcha-baza/kodeksy/konstytutsiya",
+              "zakonodavcha-baza/kodeksy/etychnyi",
+              "zakonodavcha-baza/kodeksy/trudovyi",
+              "zakonodavcha-baza/kodeksy/procesualnyi",
+              "zakonodavcha-baza/kodeksy/administratyvnyi",
+              "zakonodavcha-baza/kodeksy/kryminalnyi",
+              "zakonodavcha-baza/kodeksy/dorozhnii",
+              "zakonodavcha-baza/kodeksy/sudovyi",
+              "zakonodavcha-baza/kodeksy/povitryanyi",
+              "zakonodavcha-baza/kodeksy/vyborchyi"
+            ]
+          },
+          {
+            "group": "Закони",
+            "pages": [
+              "zakonodavcha-baza/zakony",
+              "zakonodavcha-baza/suspilstvo/mityngy",
+              "zakonodavcha-baza/suspilstvo/ohorona-zdorovya",
+              "zakonodavcha-baza/pravoohoronni/usms",
+              "zakonodavcha-baza/derzhavnyi-ustrii/vzaemodiya",
+              "zakonodavcha-baza/suspilstvo/pidpryemnytstvo",
+              "zakonodavcha-baza/suspilstvo/resursy",
+              "zakonodavcha-baza/suspilstvo/teritorii",
+              "zakonodavcha-baza/pravoohoronni/usss",
+              "zakonodavcha-baza/derzhavnyi-ustrii/taemnytsya",
+              "zakonodavcha-baza/suspilstvo/reestratsiya-ts",
+              "zakonodavcha-baza/derzhavnyi-ustrii/voennyi-stan",
+              "zakonodavcha-baza/suspilstvo/zbroya",
+              "zakonodavcha-baza/suspilstvo/zmi",
+              "zakonodavcha-baza/pravoohoronni/advokatura",
+              "zakonodavcha-baza/derzhavnyi-ustrii/uryad",
+              "zakonodavcha-baza/derzhavnyi-ustrii/nedotorkannist",
+              "zakonodavcha-baza/pravoohoronni/lspd-lssd",
+              "zakonodavcha-baza/pravoohoronni/ordery"
+            ]
+          },
+          {
+            "group": "Статути",
+            "pages": [
+              "statuty/uryad",
+              "statuty/lspd"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Ігрові механіки",
+        "icon": "gamepad",
+        "pages": [
+          "mehaniky/upravlinnya",
+          "mehaniky/interface",
+          "mehaniky/inventar",
+          "mehaniky/potreby",
+          "mehaniky/telefon",
+          "mehaniky/bank"
+        ]
+      },
+      {
+        "group": "Транспорт і нерухомість",
+        "icon": "car",
+        "pages": [
+          "transport/avto",
+          "transport/salony",
+          "transport/zhytlo"
+        ]
+      },
+      {
+        "group": "Робота та економіка",
+        "icon": "briefcase",
+        "pages": [
+          "robota/legalni",
+          "robota/nelegalni",
+          "robota/biznes"
+        ]
+      },
+      {
+        "group": "Фракції та організації",
+        "icon": "users",
+        "pages": [
+          {
+            "group": "Державні структури",
+            "pages": [
+              "frakcii/derzhavni",
+              "frakcii/derzhavni/government",
+              "frakcii/derzhavni/lspd",
+              "frakcii/derzhavni/lssd",
+              "frakcii/derzhavni/ems",
+              "frakcii/derzhavni/weazel-news"
+            ]
+          },
+          {
+            "group": "Кримінальні структури",
+            "pages": [
+              "frakcii/kryminalni",
+              "frakcii/kryminalni/ballas",
+              "frakcii/kryminalni/families",
+              "frakcii/kryminalni/vagos"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Донат і магазин",
+        "icon": "gem",
+        "pages": [
+          "donat/pryvilei",
+          "donat/kupivlya",
+          "donat/pravyla"
+        ]
+      },
+      {
+        "group": "Підтримка",
+        "icon": "life-ring",
+        "pages": [
+          "pidtrymka/faq",
+          "pidtrymka/skarga",
+          "pidtrymka/tikety",
+          "pidtrymka/tehproblemy",
+          "pidtrymka/kontakty"
+        ]
+      }
+    ]
+  }
+}
